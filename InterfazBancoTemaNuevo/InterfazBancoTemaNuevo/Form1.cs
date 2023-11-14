@@ -10,12 +10,33 @@ namespace InterfazBancoTemaNuevo
             InitializeComponent();
             this.SetStyle(ControlStyles.ResizeRedraw, true);
             this.DoubleBuffered = true;
+            panelContenedor.SizeChanged += PanelContenedor_SizeChanged;
+            pictureBox1.Location = new Point(0, 0); // Ubicación inicial
+            pictureBox1.Size = new Size(224, 169);  // Tamaño inicial
+
+            // Establece la ubicación y el tamaño iniciales para label1
+            label1.Location = new Point(224, 169); // Ubicación inicial
+            label1.Size = new Size(225, 170);      // Tamaño inicial
         }
         private int tolerance = 12;
         private const int WM_NCHITTEST = 132;
         private const int HTBOTTOMRIGHT = 17;
         private Rectangle sizeGripRectangle;
 
+        private void PanelContenedor_SizeChanged(object sender, EventArgs e)
+        {
+            // Calcula el nuevo tamaño para el PictureBox y el Label
+            int newWidth = panelContenedor.ClientSize.Width;
+            int newHeight = panelContenedor.ClientSize.Height;
+
+            // Ajusta el tamaño del PictureBox y el Label
+            pictureBox1.Size = new Size(newWidth / 2, newHeight / 2);
+            label1.Size = new Size(newWidth / 2, newHeight / 2);
+
+            // También puedes ajustar la posición si es necesario
+            pictureBox1.Location = new Point(0, 0);
+            label1.Location = new Point(newWidth / 2, 0);
+        }
         protected override void WndProc(ref Message msg)
         {
             switch (msg.Msg)
@@ -37,6 +58,7 @@ namespace InterfazBancoTemaNuevo
             base.OnSizeChanged(e);
             var region = new Region(new Rectangle(0, 0, this.ClientRectangle.Width, this.ClientRectangle.Height));
             sizeGripRectangle = new Rectangle(this.ClientRectangle.Width - tolerance, this.ClientRectangle.Height - tolerance, tolerance, tolerance);
+
 
             region.Exclude(sizeGripRectangle);
             this.panelContenedor.Region = region;
@@ -159,6 +181,15 @@ namespace InterfazBancoTemaNuevo
 
         }
 
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panelMenu_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 
 }

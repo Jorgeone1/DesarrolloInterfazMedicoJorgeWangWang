@@ -18,3 +18,23 @@ D:\JorgeWangWang\desarrollo de interfaces\InterfazBancoTemaNuevo\InterfazBancoTe
 D:\JorgeWangWang\desarrollo de interfaces\InterfazBancoTemaNuevo\InterfazBancoTemaNuevo\obj\Debug\net6.0-windows\Interfaz2.Form2.resources
 D:\JorgeWangWang\desarrollo de interfaces\InterfazBancoTemaNuevo\InterfazBancoTemaNuevo\obj\Debug\net6.0-windows\Interfaz2.Form3.resources
 D:\JorgeWangWang\desarrollo de interfaces\InterfazBancoTemaNuevo\InterfazBancoTemaNuevo\obj\Debug\net6.0-windows\Interfaz2.Form4.resources
+C:\Users\Alumno\Documents\GitHub\DesarrolloInterfazMedicoJorgeWangWang\InterfazBancoTemaNuevo\InterfazBancoTemaNuevo\bin\Debug\net6.0-windows\Interfaz2.exe
+C:\Users\Alumno\Documents\GitHub\DesarrolloInterfazMedicoJorgeWangWang\InterfazBancoTemaNuevo\InterfazBancoTemaNuevo\bin\Debug\net6.0-windows\Interfaz2.deps.json
+C:\Users\Alumno\Documents\GitHub\DesarrolloInterfazMedicoJorgeWangWang\InterfazBancoTemaNuevo\InterfazBancoTemaNuevo\bin\Debug\net6.0-windows\Interfaz2.runtimeconfig.json
+C:\Users\Alumno\Documents\GitHub\DesarrolloInterfazMedicoJorgeWangWang\InterfazBancoTemaNuevo\InterfazBancoTemaNuevo\bin\Debug\net6.0-windows\Interfaz2.dll
+C:\Users\Alumno\Documents\GitHub\DesarrolloInterfazMedicoJorgeWangWang\InterfazBancoTemaNuevo\InterfazBancoTemaNuevo\bin\Debug\net6.0-windows\Interfaz2.pdb
+C:\Users\Alumno\Documents\GitHub\DesarrolloInterfazMedicoJorgeWangWang\InterfazBancoTemaNuevo\InterfazBancoTemaNuevo\obj\Debug\net6.0-windows\InterfazBancoTemaNuevo.Form1.resources
+C:\Users\Alumno\Documents\GitHub\DesarrolloInterfazMedicoJorgeWangWang\InterfazBancoTemaNuevo\InterfazBancoTemaNuevo\obj\Debug\net6.0-windows\Interfaz2.Form2.resources
+C:\Users\Alumno\Documents\GitHub\DesarrolloInterfazMedicoJorgeWangWang\InterfazBancoTemaNuevo\InterfazBancoTemaNuevo\obj\Debug\net6.0-windows\Interfaz2.Form3.resources
+C:\Users\Alumno\Documents\GitHub\DesarrolloInterfazMedicoJorgeWangWang\InterfazBancoTemaNuevo\InterfazBancoTemaNuevo\obj\Debug\net6.0-windows\Interfaz2.Form4.resources
+C:\Users\Alumno\Documents\GitHub\DesarrolloInterfazMedicoJorgeWangWang\InterfazBancoTemaNuevo\InterfazBancoTemaNuevo\obj\Debug\net6.0-windows\Interfaz2.Properties.Resources.resources
+C:\Users\Alumno\Documents\GitHub\DesarrolloInterfazMedicoJorgeWangWang\InterfazBancoTemaNuevo\InterfazBancoTemaNuevo\obj\Debug\net6.0-windows\Interfaz2.csproj.GenerateResource.cache
+C:\Users\Alumno\Documents\GitHub\DesarrolloInterfazMedicoJorgeWangWang\InterfazBancoTemaNuevo\InterfazBancoTemaNuevo\obj\Debug\net6.0-windows\Interfaz2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumno\Documents\GitHub\DesarrolloInterfazMedicoJorgeWangWang\InterfazBancoTemaNuevo\InterfazBancoTemaNuevo\obj\Debug\net6.0-windows\Interfaz2.AssemblyInfoInputs.cache
+C:\Users\Alumno\Documents\GitHub\DesarrolloInterfazMedicoJorgeWangWang\InterfazBancoTemaNuevo\InterfazBancoTemaNuevo\obj\Debug\net6.0-windows\Interfaz2.AssemblyInfo.cs
+C:\Users\Alumno\Documents\GitHub\DesarrolloInterfazMedicoJorgeWangWang\InterfazBancoTemaNuevo\InterfazBancoTemaNuevo\obj\Debug\net6.0-windows\Interfaz2.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\GitHub\DesarrolloInterfazMedicoJorgeWangWang\InterfazBancoTemaNuevo\InterfazBancoTemaNuevo\obj\Debug\net6.0-windows\Interfaz2.dll
+C:\Users\Alumno\Documents\GitHub\DesarrolloInterfazMedicoJorgeWangWang\InterfazBancoTemaNuevo\InterfazBancoTemaNuevo\obj\Debug\net6.0-windows\refint\Interfaz2.dll
+C:\Users\Alumno\Documents\GitHub\DesarrolloInterfazMedicoJorgeWangWang\InterfazBancoTemaNuevo\InterfazBancoTemaNuevo\obj\Debug\net6.0-windows\Interfaz2.pdb
+C:\Users\Alumno\Documents\GitHub\DesarrolloInterfazMedicoJorgeWangWang\InterfazBancoTemaNuevo\InterfazBancoTemaNuevo\obj\Debug\net6.0-windows\Interfaz2.genruntimeconfig.cache
+C:\Users\Alumno\Documents\GitHub\DesarrolloInterfazMedicoJorgeWangWang\InterfazBancoTemaNuevo\InterfazBancoTemaNuevo\obj\Debug\net6.0-windows\ref\Interfaz2.dll

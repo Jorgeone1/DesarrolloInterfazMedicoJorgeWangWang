@@ -33,6 +33,9 @@
             label1 = new Label();
             pictureBox1 = new PictureBox();
             panelMenu = new Panel();
+            panel1 = new Panel();
+            button5 = new Button();
+            button4 = new Button();
             button3 = new Button();
             button2 = new Button();
             button1 = new Button();
@@ -41,15 +44,20 @@
             btnMaximizar = new PictureBox();
             btnCerrar = new PictureBox();
             btnRestaurar = new PictureBox();
+            pictureBox2 = new PictureBox();
+            label3 = new Label();
+            label4 = new Label();
             panelContenedor.SuspendLayout();
             panelFormularios.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panelMenu.SuspendLayout();
+            panel1.SuspendLayout();
             Barra.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)btnMinimizar).BeginInit();
             ((System.ComponentModel.ISupportInitialize)btnMaximizar).BeginInit();
             ((System.ComponentModel.ISupportInitialize)btnCerrar).BeginInit();
             ((System.ComponentModel.ISupportInitialize)btnRestaurar).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // panelContenedor
@@ -102,6 +110,9 @@
             // panelMenu
             // 
             panelMenu.BackColor = Color.FromArgb(37, 54, 75);
+            panelMenu.Controls.Add(panel1);
+            panelMenu.Controls.Add(button5);
+            panelMenu.Controls.Add(button4);
             panelMenu.Controls.Add(button3);
             panelMenu.Controls.Add(button2);
             panelMenu.Controls.Add(button1);
@@ -110,6 +121,55 @@
             panelMenu.Name = "panelMenu";
             panelMenu.Size = new Size(240, 560);
             panelMenu.TabIndex = 1;
+            panelMenu.Paint += panelMenu_Paint;
+            // 
+            // panel1
+            // 
+            panel1.BorderStyle = BorderStyle.FixedSingle;
+            panel1.Controls.Add(label4);
+            panel1.Controls.Add(label3);
+            panel1.Controls.Add(pictureBox2);
+            panel1.Location = new Point(7, 6);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(227, 103);
+            panel1.TabIndex = 5;
+            // 
+            // button5
+            // 
+            button5.FlatAppearance.BorderSize = 0;
+            button5.FlatAppearance.MouseDownBackColor = Color.FromArgb(33, 50, 70);
+            button5.FlatAppearance.MouseOverBackColor = Color.FromArgb(12, 61, 92);
+            button5.FlatStyle = FlatStyle.Flat;
+            button5.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            button5.ForeColor = Color.Gainsboro;
+            button5.Image = Interfaz2.Properties.Resources.calendar__1_1;
+            button5.ImageAlign = ContentAlignment.MiddleLeft;
+            button5.Location = new Point(1, 183);
+            button5.Name = "button5";
+            button5.Size = new Size(230, 42);
+            button5.TabIndex = 4;
+            button5.Text = "             Calendario";
+            button5.TextAlign = ContentAlignment.MiddleLeft;
+            button5.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            button4.FlatAppearance.BorderSize = 0;
+            button4.FlatAppearance.MouseDownBackColor = Color.FromArgb(33, 50, 70);
+            button4.FlatAppearance.MouseOverBackColor = Color.FromArgb(12, 61, 92);
+            button4.FlatStyle = FlatStyle.Flat;
+            button4.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            button4.ForeColor = Color.Gainsboro;
+            button4.Image = Interfaz2.Properties.Resources.payment1;
+            button4.ImageAlign = ContentAlignment.MiddleLeft;
+            button4.Location = new Point(1, 280);
+            button4.Name = "button4";
+            button4.Size = new Size(230, 42);
+            button4.TabIndex = 3;
+            button4.Text = "             Calendario";
+            button4.TextAlign = ContentAlignment.MiddleLeft;
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // button3
             // 
@@ -119,9 +179,9 @@
             button3.FlatStyle = FlatStyle.Flat;
             button3.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
             button3.ForeColor = Color.Gainsboro;
-            button3.Image = Interfaz2.Properties.Resources.calendar__1_1;
+            button3.Image = Interfaz2.Properties.Resources.patient__1_1;
             button3.ImageAlign = ContentAlignment.MiddleLeft;
-            button3.Location = new Point(3, 210);
+            button3.Location = new Point(0, 231);
             button3.Name = "button3";
             button3.Size = new Size(230, 42);
             button3.TabIndex = 2;
@@ -140,11 +200,11 @@
             button2.ForeColor = Color.Gainsboro;
             button2.Image = Interfaz2.Properties.Resources.person_settings1;
             button2.ImageAlign = ContentAlignment.MiddleLeft;
-            button2.Location = new Point(4, 162);
+            button2.Location = new Point(7, 506);
             button2.Name = "button2";
             button2.Size = new Size(230, 42);
             button2.TabIndex = 1;
-            button2.Text = "             Ajustes";
+            button2.Text = "             Iniciar Sesión";
             button2.TextAlign = ContentAlignment.MiddleLeft;
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
@@ -159,7 +219,7 @@
             button1.ForeColor = Color.Gainsboro;
             button1.Image = Interfaz2.Properties.Resources.bar_graph1;
             button1.ImageAlign = ContentAlignment.MiddleLeft;
-            button1.Location = new Point(4, 114);
+            button1.Location = new Point(1, 135);
             button1.Name = "button1";
             button1.Size = new Size(230, 42);
             button1.TabIndex = 0;
@@ -234,6 +294,38 @@
             btnRestaurar.TabStop = false;
             btnRestaurar.Click += btnRestaurar_Click;
             // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = Interfaz2.Properties.Resources.user__1_;
+            pictureBox2.Location = new Point(4, 12);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(81, 76);
+            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox2.TabIndex = 0;
+            pictureBox2.TabStop = false;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.ForeColor = Color.Gainsboro;
+            label3.Location = new Point(91, 24);
+            label3.Name = "label3";
+            label3.Size = new Size(48, 13);
+            label3.TabIndex = 2;
+            label3.Text = "Nombre";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.ForeColor = Color.Gainsboro;
+            label4.Location = new Point(91, 57);
+            label4.Name = "label4";
+            label4.Size = new Size(42, 13);
+            label4.TabIndex = 3;
+            label4.Text = "Correo";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -249,11 +341,14 @@
             panelFormularios.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panelMenu.ResumeLayout(false);
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             Barra.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)btnMinimizar).EndInit();
             ((System.ComponentModel.ISupportInitialize)btnMaximizar).EndInit();
             ((System.ComponentModel.ISupportInitialize)btnCerrar).EndInit();
             ((System.ComponentModel.ISupportInitialize)btnRestaurar).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
         }
 
@@ -272,5 +367,11 @@
         private Button button1;
         private PictureBox pictureBox1;
         private Label label1;
+        private Button button5;
+        private Button button4;
+        private Panel panel1;
+        private Label label3;
+        private PictureBox pictureBox2;
+        private Label label4;
     }
 }

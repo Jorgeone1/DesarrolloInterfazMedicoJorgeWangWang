@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\JorgeWangWang\\desarrollo de interfaces\\InterfazBancoTemaNuevo\\InterfazBancoTemaNuevo\\Interfaz2.csproj": {}
+    "C:\\Users\\Alumno\\Documents\\GitHub\\DesarrolloInterfazMedicoJorgeWangWang\\InterfazBancoTemaNuevo\\InterfazBancoTemaNuevo\\Interfaz2.csproj": {}
   },
   "projects": {
-    "D:\\JorgeWangWang\\desarrollo de interfaces\\InterfazBancoTemaNuevo\\InterfazBancoTemaNuevo\\Interfaz2.csproj": {
+    "C:\\Users\\Alumno\\Documents\\GitHub\\DesarrolloInterfazMedicoJorgeWangWang\\InterfazBancoTemaNuevo\\InterfazBancoTemaNuevo\\Interfaz2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\JorgeWangWang\\desarrollo de interfaces\\InterfazBancoTemaNuevo\\InterfazBancoTemaNuevo\\Interfaz2.csproj",
+        "projectUniqueName": "C:\\Users\\Alumno\\Documents\\GitHub\\DesarrolloInterfazMedicoJorgeWangWang\\InterfazBancoTemaNuevo\\InterfazBancoTemaNuevo\\Interfaz2.csproj",
         "projectName": "Interfaz2",
-        "projectPath": "D:\\JorgeWangWang\\desarrollo de interfaces\\InterfazBancoTemaNuevo\\InterfazBancoTemaNuevo\\Interfaz2.csproj",
+        "projectPath": "C:\\Users\\Alumno\\Documents\\GitHub\\DesarrolloInterfazMedicoJorgeWangWang\\InterfazBancoTemaNuevo\\InterfazBancoTemaNuevo\\Interfaz2.csproj",
         "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
-        "outputPath": "D:\\JorgeWangWang\\desarrollo de interfaces\\InterfazBancoTemaNuevo\\InterfazBancoTemaNuevo\\obj\\",
+        "outputPath": "C:\\Users\\Alumno\\Documents\\GitHub\\DesarrolloInterfazMedicoJorgeWangWang\\InterfazBancoTemaNuevo\\InterfazBancoTemaNuevo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
