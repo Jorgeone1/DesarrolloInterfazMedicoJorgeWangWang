@@ -34,30 +34,30 @@
             pictureBox1 = new PictureBox();
             panelMenu = new Panel();
             panel1 = new Panel();
+            label4 = new Label();
+            label3 = new Label();
+            pictureBox2 = new PictureBox();
             button5 = new Button();
             button4 = new Button();
             button3 = new Button();
-            button2 = new Button();
+            InicioSesion = new Button();
             button1 = new Button();
             Barra = new Panel();
             btnMinimizar = new PictureBox();
             btnMaximizar = new PictureBox();
             btnCerrar = new PictureBox();
             btnRestaurar = new PictureBox();
-            pictureBox2 = new PictureBox();
-            label3 = new Label();
-            label4 = new Label();
             panelContenedor.SuspendLayout();
             panelFormularios.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panelMenu.SuspendLayout();
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             Barra.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)btnMinimizar).BeginInit();
             ((System.ComponentModel.ISupportInitialize)btnMaximizar).BeginInit();
             ((System.ComponentModel.ISupportInitialize)btnCerrar).BeginInit();
             ((System.ComponentModel.ISupportInitialize)btnRestaurar).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // panelContenedor
@@ -91,7 +91,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Microsoft Sans Serif", 20F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = Color.FromArgb(14, 128, 188);
-            label1.Location = new Point(361, 370);
+            label1.Location = new Point(217, 370);
             label1.Name = "label1";
             label1.Size = new Size(114, 31);
             label1.TabIndex = 1;
@@ -106,6 +106,7 @@
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // panelMenu
             // 
@@ -114,7 +115,7 @@
             panelMenu.Controls.Add(button5);
             panelMenu.Controls.Add(button4);
             panelMenu.Controls.Add(button3);
-            panelMenu.Controls.Add(button2);
+            panelMenu.Controls.Add(InicioSesion);
             panelMenu.Controls.Add(button1);
             panelMenu.Dock = DockStyle.Left;
             panelMenu.Location = new Point(0, 40);
@@ -134,6 +135,38 @@
             panel1.Size = new Size(227, 103);
             panel1.TabIndex = 5;
             // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.ForeColor = Color.Gainsboro;
+            label4.Location = new Point(91, 57);
+            label4.Name = "label4";
+            label4.Size = new Size(42, 13);
+            label4.TabIndex = 3;
+            label4.Text = "Correo";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.ForeColor = Color.Gainsboro;
+            label3.Location = new Point(91, 24);
+            label3.Name = "label3";
+            label3.Size = new Size(48, 13);
+            label3.TabIndex = 2;
+            label3.Text = "Nombre";
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = Interfaz2.Properties.Resources.user__1_;
+            pictureBox2.Location = new Point(4, 12);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(81, 76);
+            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox2.TabIndex = 0;
+            pictureBox2.TabStop = false;
+            // 
             // button5
             // 
             button5.FlatAppearance.BorderSize = 0;
@@ -151,6 +184,7 @@
             button5.Text = "             Calendario";
             button5.TextAlign = ContentAlignment.MiddleLeft;
             button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // button4
             // 
@@ -166,7 +200,7 @@
             button4.Name = "button4";
             button4.Size = new Size(230, 42);
             button4.TabIndex = 3;
-            button4.Text = "             Calendario";
+            button4.Text = "             Recibos";
             button4.TextAlign = ContentAlignment.MiddleLeft;
             button4.UseVisualStyleBackColor = true;
             button4.Click += button4_Click;
@@ -179,35 +213,35 @@
             button3.FlatStyle = FlatStyle.Flat;
             button3.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
             button3.ForeColor = Color.Gainsboro;
-            button3.Image = Interfaz2.Properties.Resources.patient__1_1;
+            button3.Image = Interfaz2.Properties.Resources.phone_book__1_1;
             button3.ImageAlign = ContentAlignment.MiddleLeft;
             button3.Location = new Point(0, 231);
             button3.Name = "button3";
             button3.Size = new Size(230, 42);
             button3.TabIndex = 2;
-            button3.Text = "             Calendario";
+            button3.Text = "             Medicos";
             button3.TextAlign = ContentAlignment.MiddleLeft;
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
             // 
-            // button2
+            // InicioSesion
             // 
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatAppearance.MouseDownBackColor = Color.FromArgb(33, 50, 70);
-            button2.FlatAppearance.MouseOverBackColor = Color.FromArgb(12, 61, 92);
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            button2.ForeColor = Color.Gainsboro;
-            button2.Image = Interfaz2.Properties.Resources.person_settings1;
-            button2.ImageAlign = ContentAlignment.MiddleLeft;
-            button2.Location = new Point(7, 506);
-            button2.Name = "button2";
-            button2.Size = new Size(230, 42);
-            button2.TabIndex = 1;
-            button2.Text = "             Iniciar Sesión";
-            button2.TextAlign = ContentAlignment.MiddleLeft;
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            InicioSesion.FlatAppearance.BorderSize = 0;
+            InicioSesion.FlatAppearance.MouseDownBackColor = Color.FromArgb(33, 50, 70);
+            InicioSesion.FlatAppearance.MouseOverBackColor = Color.FromArgb(12, 61, 92);
+            InicioSesion.FlatStyle = FlatStyle.Flat;
+            InicioSesion.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            InicioSesion.ForeColor = Color.Gainsboro;
+            InicioSesion.Image = Interfaz2.Properties.Resources.person_settings1;
+            InicioSesion.ImageAlign = ContentAlignment.MiddleLeft;
+            InicioSesion.Location = new Point(7, 506);
+            InicioSesion.Name = "InicioSesion";
+            InicioSesion.Size = new Size(230, 42);
+            InicioSesion.TabIndex = 1;
+            InicioSesion.Text = "             Iniciar Sesión";
+            InicioSesion.TextAlign = ContentAlignment.MiddleLeft;
+            InicioSesion.UseVisualStyleBackColor = true;
+            InicioSesion.Click += button2_Click;
             // 
             // button1
             // 
@@ -294,38 +328,6 @@
             btnRestaurar.TabStop = false;
             btnRestaurar.Click += btnRestaurar_Click;
             // 
-            // pictureBox2
-            // 
-            pictureBox2.Image = Interfaz2.Properties.Resources.user__1_;
-            pictureBox2.Location = new Point(4, 12);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(81, 76);
-            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox2.TabIndex = 0;
-            pictureBox2.TabStop = false;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.ForeColor = Color.Gainsboro;
-            label3.Location = new Point(91, 24);
-            label3.Name = "label3";
-            label3.Size = new Size(48, 13);
-            label3.TabIndex = 2;
-            label3.Text = "Nombre";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.ForeColor = Color.Gainsboro;
-            label4.Location = new Point(91, 57);
-            label4.Name = "label4";
-            label4.Size = new Size(42, 13);
-            label4.TabIndex = 3;
-            label4.Text = "Correo";
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -343,12 +345,12 @@
             panelMenu.ResumeLayout(false);
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             Barra.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)btnMinimizar).EndInit();
             ((System.ComponentModel.ISupportInitialize)btnMaximizar).EndInit();
             ((System.ComponentModel.ISupportInitialize)btnCerrar).EndInit();
             ((System.ComponentModel.ISupportInitialize)btnRestaurar).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
         }
 
@@ -373,5 +375,6 @@
         private Label label3;
         private PictureBox pictureBox2;
         private Label label4;
+        private Button InicioSesion;
     }
 }

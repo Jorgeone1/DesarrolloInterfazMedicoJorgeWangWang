@@ -10,13 +10,10 @@ namespace InterfazBancoTemaNuevo
             InitializeComponent();
             this.SetStyle(ControlStyles.ResizeRedraw, true);
             this.DoubleBuffered = true;
+            // Agrega un manejador de eventos SizeChanged al panelContenedor
             panelContenedor.SizeChanged += PanelContenedor_SizeChanged;
-            pictureBox1.Location = new Point(0, 0); // Ubicación inicial
-            pictureBox1.Size = new Size(224, 169);  // Tamaño inicial
 
-            // Establece la ubicación y el tamaño iniciales para label1
-            label1.Location = new Point(224, 169); // Ubicación inicial
-            label1.Size = new Size(225, 170);      // Tamaño inicial
+
         }
         private int tolerance = 12;
         private const int WM_NCHITTEST = 132;
@@ -25,18 +22,18 @@ namespace InterfazBancoTemaNuevo
 
         private void PanelContenedor_SizeChanged(object sender, EventArgs e)
         {
-            // Calcula el nuevo tamaño para el PictureBox y el Label
+            // Calcula el nuevo tamaño para pictureBox1 y label1
             int newWidth = panelContenedor.ClientSize.Width;
             int newHeight = panelContenedor.ClientSize.Height;
 
-            // Ajusta el tamaño del PictureBox y el Label
-            pictureBox1.Size = new Size(newWidth / 2, newHeight / 2);
+            pictureBox1.Size = new Size((newWidth - 100) / 2, newHeight / 2);
+
+            // Actualiza la ubicación del label en relación con panelContenedor
+            label1.Location = new Point((newWidth - 250) / 3, (newHeight + 20) / 2);
             label1.Size = new Size(newWidth / 2, newHeight / 2);
 
-            // También puedes ajustar la posición si es necesario
-            pictureBox1.Location = new Point(0, 0);
-            label1.Location = new Point(newWidth / 2, 0);
         }
+
         protected override void WndProc(ref Message msg)
         {
             switch (msg.Msg)
@@ -92,7 +89,7 @@ namespace InterfazBancoTemaNuevo
             sh = this.Size.Height;
 
             pictureBox1.Size = new Size(898, 678);//449k 339
-            pictureBox1.Location = new Point(392, 79);
+            pictureBox1.Location = new Point(292, 99);
             label1.Location = new Point(755, 670);
             label1.Font = new Font(new FontFamily("Microsoft Sans Serif"), 30, FontStyle.Bold);
             btnMaximizar.Visible = false;
@@ -139,12 +136,12 @@ namespace InterfazBancoTemaNuevo
         private void button2_Click(object sender, EventArgs e)
         {
             AbrirFormulario<Form3>();
-            button2.BackColor = Color.FromArgb(12, 61, 92);
+            InicioSesion.BackColor = Color.FromArgb(12, 61, 92);
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            AbrirFormulario<Form4>();
+            AbrirFormulario<Form6>();
             button3.BackColor = Color.FromArgb(12, 61, 92);
         }
 
@@ -174,21 +171,35 @@ namespace InterfazBancoTemaNuevo
             if (Application.OpenForms["Form2"] == null)
                 button1.BackColor = Color.FromArgb(4, 41, 68);
             if (Application.OpenForms["Form3"] == null)
-                button2.BackColor = Color.FromArgb(4, 41, 68);
+                InicioSesion.BackColor = Color.FromArgb(4, 41, 68);
             if (Application.OpenForms["Form4"] == null)
                 button3.BackColor = Color.FromArgb(4, 41, 68);
-
-
+            if (Application.OpenForms["Form5"] == null)
+                button4.BackColor = Color.FromArgb(4, 41, 68);
+            if (Application.OpenForms["Form6"] == null)
+                button5.BackColor = Color.FromArgb(4, 41, 68);
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            AbrirFormulario<Form5>();
+            button4.BackColor = Color.FromArgb(12, 61, 92);
         }
 
         private void panelMenu_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario<Form4>();
+            button5.BackColor = Color.FromArgb(12, 61, 92);
         }
     }
 

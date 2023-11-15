@@ -1,6 +1,6 @@
 ﻿namespace Interfaz2
 {
-    partial class Form4
+    partial class Form6
     {
         /// <summary>
         /// Required designer variable.
@@ -28,56 +28,48 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
             button1 = new Button();
-            monthCalendar1 = new MonthCalendar();
+            tableLayoutPanel1 = new TableLayoutPanel();
             SuspendLayout();
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(367, 34);
-            label1.Name = "label1";
-            label1.Size = new Size(127, 25);
-            label1.TabIndex = 0;
-            label1.Text = "Formulario 3";
             // 
             // button1
             // 
-            button1.Location = new Point(342, 389);
+            button1.Location = new Point(12, 410);
             button1.Name = "button1";
-            button1.Size = new Size(177, 31);
-            button1.TabIndex = 7;
+            button1.Size = new Size(81, 28);
+            button1.TabIndex = 0;
             button1.Text = "Salir";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // monthCalendar1
+            // tableLayoutPanel1
             // 
-            monthCalendar1.CalendarDimensions = new Size(2, 2);
-            monthCalendar1.Location = new Point(228, 68);
-            monthCalendar1.Name = "monthCalendar1";
-            monthCalendar1.TabIndex = 8;
+            tableLayoutPanel1.ColumnCount = 2;
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            tableLayoutPanel1.Location = new Point(261, 113);
+            tableLayoutPanel1.Name = "tableLayoutPanel1";
+            tableLayoutPanel1.RowCount = 2;
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            tableLayoutPanel1.Size = new Size(271, 172);
+            tableLayoutPanel1.TabIndex = 1;
             // 
-            // Form4
+            // Form6
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(monthCalendar1);
+            Controls.Add(tableLayoutPanel1);
             Controls.Add(button1);
-            Controls.Add(label1);
-            Name = "Form4";
-            Text = "Formulario 3";
+            Name = "Form6";
+            Text = "Form6";
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
-        private Label label1;
         private Button button1;
-        private MonthCalendar monthCalendar1;
+        private TableLayoutPanel tableLayoutPanel1;
     }
 }
