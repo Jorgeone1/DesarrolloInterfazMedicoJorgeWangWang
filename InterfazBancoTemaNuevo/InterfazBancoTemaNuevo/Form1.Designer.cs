@@ -47,6 +47,7 @@
             btnMaximizar = new PictureBox();
             btnCerrar = new PictureBox();
             btnRestaurar = new PictureBox();
+            label2 = new Label();
             panelContenedor.SuspendLayout();
             panelFormularios.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -85,6 +86,7 @@
             panelFormularios.Name = "panelFormularios";
             panelFormularios.Size = new Size(860, 560);
             panelFormularios.TabIndex = 2;
+            panelFormularios.Paint += panelFormularios_Paint;
             // 
             // label1
             // 
@@ -127,6 +129,7 @@
             // panel1
             // 
             panel1.BorderStyle = BorderStyle.FixedSingle;
+            panel1.Controls.Add(label2);
             panel1.Controls.Add(label4);
             panel1.Controls.Add(label3);
             panel1.Controls.Add(pictureBox2);
@@ -140,22 +143,22 @@
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
             label4.ForeColor = Color.Gainsboro;
-            label4.Location = new Point(91, 57);
+            label4.Location = new Point(91, 72);
             label4.Name = "label4";
-            label4.Size = new Size(42, 13);
+            label4.Size = new Size(45, 13);
             label4.TabIndex = 3;
-            label4.Text = "Correo";
+            label4.Text = "Correo:";
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
             label3.ForeColor = Color.Gainsboro;
-            label3.Location = new Point(91, 24);
+            label3.Location = new Point(91, 12);
             label3.Name = "label3";
-            label3.Size = new Size(48, 13);
+            label3.Size = new Size(51, 13);
             label3.TabIndex = 2;
-            label3.Text = "Nombre";
+            label3.Text = "Nombre:";
             // 
             // pictureBox2
             // 
@@ -177,7 +180,7 @@
             button5.ForeColor = Color.Gainsboro;
             button5.Image = Interfaz2.Properties.Resources.calendar__1_1;
             button5.ImageAlign = ContentAlignment.MiddleLeft;
-            button5.Location = new Point(1, 183);
+            button5.Location = new Point(5, 173);
             button5.Name = "button5";
             button5.Size = new Size(230, 42);
             button5.TabIndex = 4;
@@ -196,11 +199,11 @@
             button4.ForeColor = Color.Gainsboro;
             button4.Image = Interfaz2.Properties.Resources.payment1;
             button4.ImageAlign = ContentAlignment.MiddleLeft;
-            button4.Location = new Point(1, 280);
+            button4.Location = new Point(5, 270);
             button4.Name = "button4";
             button4.Size = new Size(230, 42);
             button4.TabIndex = 3;
-            button4.Text = "             Recibos";
+            button4.Text = "              Recibos";
             button4.TextAlign = ContentAlignment.MiddleLeft;
             button4.UseVisualStyleBackColor = true;
             button4.Click += button4_Click;
@@ -215,11 +218,11 @@
             button3.ForeColor = Color.Gainsboro;
             button3.Image = Interfaz2.Properties.Resources.phone_book__1_1;
             button3.ImageAlign = ContentAlignment.MiddleLeft;
-            button3.Location = new Point(0, 231);
+            button3.Location = new Point(4, 221);
             button3.Name = "button3";
             button3.Size = new Size(230, 42);
             button3.TabIndex = 2;
-            button3.Text = "             Medicos";
+            button3.Text = "              Medicos";
             button3.TextAlign = ContentAlignment.MiddleLeft;
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
@@ -238,7 +241,7 @@
             InicioSesion.Name = "InicioSesion";
             InicioSesion.Size = new Size(230, 42);
             InicioSesion.TabIndex = 1;
-            InicioSesion.Text = "             Iniciar Sesión";
+            InicioSesion.Text = "              Iniciar Sesión";
             InicioSesion.TextAlign = ContentAlignment.MiddleLeft;
             InicioSesion.UseVisualStyleBackColor = true;
             InicioSesion.Click += button2_Click;
@@ -253,11 +256,11 @@
             button1.ForeColor = Color.Gainsboro;
             button1.Image = Interfaz2.Properties.Resources.bar_graph1;
             button1.ImageAlign = ContentAlignment.MiddleLeft;
-            button1.Location = new Point(1, 135);
+            button1.Location = new Point(5, 125);
             button1.Name = "button1";
             button1.Size = new Size(230, 42);
             button1.TabIndex = 0;
-            button1.Text = "            Estadistica";
+            button1.Text = "             Estadistica";
             button1.TextAlign = ContentAlignment.MiddleLeft;
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
@@ -328,6 +331,16 @@
             btnRestaurar.TabStop = false;
             btnRestaurar.Click += btnRestaurar_Click;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.ForeColor = Color.Gainsboro;
+            label2.Location = new Point(91, 43);
+            label2.Name = "label2";
+            label2.Size = new Size(46, 15);
+            label2.TabIndex = 4;
+            label2.Text = "Puesto:";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -376,5 +389,6 @@
         private PictureBox pictureBox2;
         private Label label4;
         private Button InicioSesion;
+        private Label label2;
     }
 }
