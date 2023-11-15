@@ -130,9 +130,9 @@
             panel1.Controls.Add(label4);
             panel1.Controls.Add(label3);
             panel1.Controls.Add(pictureBox2);
-            panel1.Location = new Point(7, 6);
+            panel1.Location = new Point(0, 6);
             panel1.Name = "panel1";
-            panel1.Size = new Size(227, 103);
+            panel1.Size = new Size(240, 103);
             panel1.TabIndex = 5;
             // 
             // label4

@@ -60,3 +60,5 @@ C:\Users\Usuario\OneDrive\Documents\GitHub\DesarrolloInterfazMedicoJorgeWangWang
 C:\Users\Usuario\OneDrive\Documents\GitHub\DesarrolloInterfazMedicoJorgeWangWang\InterfazBancoTemaNuevo\InterfazBancoTemaNuevo\obj\Debug\net6.0-windows\ref\Interfaz2.dll
 C:\Users\Usuario\OneDrive\Documents\GitHub\DesarrolloInterfazMedicoJorgeWangWang\InterfazBancoTemaNuevo\InterfazBancoTemaNuevo\obj\Debug\net6.0-windows\Interfaz2.Form5.resources
 C:\Users\Usuario\OneDrive\Documents\GitHub\DesarrolloInterfazMedicoJorgeWangWang\InterfazBancoTemaNuevo\InterfazBancoTemaNuevo\obj\Debug\net6.0-windows\Interfaz2.Form6.resources
+C:\Users\Alumno\Documents\GitHub\DesarrolloInterfazMedicoJorgeWangWang\InterfazBancoTemaNuevo\InterfazBancoTemaNuevo\obj\Debug\net6.0-windows\Interfaz2.Form5.resources
+C:\Users\Alumno\Documents\GitHub\DesarrolloInterfazMedicoJorgeWangWang\InterfazBancoTemaNuevo\InterfazBancoTemaNuevo\obj\Debug\net6.0-windows\Interfaz2.Form6.resources
