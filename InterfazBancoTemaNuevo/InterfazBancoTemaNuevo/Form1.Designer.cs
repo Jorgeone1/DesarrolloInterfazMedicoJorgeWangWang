@@ -34,6 +34,7 @@
             pictureBox1 = new PictureBox();
             panelMenu = new Panel();
             panel1 = new Panel();
+            label2 = new Label();
             label4 = new Label();
             label3 = new Label();
             pictureBox2 = new PictureBox();
@@ -47,7 +48,6 @@
             btnMaximizar = new PictureBox();
             btnCerrar = new PictureBox();
             btnRestaurar = new PictureBox();
-            label2 = new Label();
             panelContenedor.SuspendLayout();
             panelFormularios.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -138,12 +138,22 @@
             panel1.Size = new Size(240, 103);
             panel1.TabIndex = 5;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.ForeColor = Color.Gainsboro;
+            label2.Location = new Point(91, 43);
+            label2.Name = "label2";
+            label2.Size = new Size(46, 15);
+            label2.TabIndex = 4;
+            label2.Text = "Puesto:";
+            // 
             // label4
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
             label4.ForeColor = Color.Gainsboro;
-            label4.Location = new Point(91, 72);
+            label4.Location = new Point(92, 75);
             label4.Name = "label4";
             label4.Size = new Size(45, 13);
             label4.TabIndex = 3;
@@ -330,16 +340,6 @@
             btnRestaurar.TabIndex = 3;
             btnRestaurar.TabStop = false;
             btnRestaurar.Click += btnRestaurar_Click;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.ForeColor = Color.Gainsboro;
-            label2.Location = new Point(91, 43);
-            label2.Name = "label2";
-            label2.Size = new Size(46, 15);
-            label2.TabIndex = 4;
-            label2.Text = "Puesto:";
             // 
             // Form1
             // 

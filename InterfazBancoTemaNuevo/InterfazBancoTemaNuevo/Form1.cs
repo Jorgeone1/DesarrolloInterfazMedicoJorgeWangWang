@@ -169,15 +169,15 @@ namespace InterfazBancoTemaNuevo
         private void CloseForms(object sender, FormClosedEventArgs e)
         {
             if (Application.OpenForms["Form2"] == null)
-                button1.BackColor = Color.FromArgb(4, 41, 68);
+                button1.BackColor = Color.FromArgb(37, 54, 75);
             if (Application.OpenForms["Form3"] == null)
-                InicioSesion.BackColor = Color.FromArgb(4, 41, 68);
+                InicioSesion.BackColor = Color.FromArgb(37, 54, 75);
             if (Application.OpenForms["Form4"] == null)
-                button3.BackColor = Color.FromArgb(4, 41, 68);
+                button3.BackColor = Color.FromArgb(37, 54, 75);
             if (Application.OpenForms["Form5"] == null)
-                button4.BackColor = Color.FromArgb(4, 41, 68);
+                button4.BackColor = Color.FromArgb(37, 54, 75);
             if (Application.OpenForms["Form6"] == null)
-                button5.BackColor = Color.FromArgb(4, 41, 68);
+                button5.BackColor = Color.FromArgb(37, 54, 75);
         }
 
         private void button4_Click(object sender, EventArgs e)
