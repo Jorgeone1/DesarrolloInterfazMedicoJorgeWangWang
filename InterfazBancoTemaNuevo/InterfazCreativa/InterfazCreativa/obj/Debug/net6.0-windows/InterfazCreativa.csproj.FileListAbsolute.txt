@@ -1,0 +1,16 @@
+D:\JorgeWangWang\desarrollo de interfaces\InterfazCreativa\InterfazCreativa\bin\Debug\net6.0-windows\InterfazCreativa.exe
+D:\JorgeWangWang\desarrollo de interfaces\InterfazCreativa\InterfazCreativa\bin\Debug\net6.0-windows\InterfazCreativa.deps.json
+D:\JorgeWangWang\desarrollo de interfaces\InterfazCreativa\InterfazCreativa\bin\Debug\net6.0-windows\InterfazCreativa.runtimeconfig.json
+D:\JorgeWangWang\desarrollo de interfaces\InterfazCreativa\InterfazCreativa\bin\Debug\net6.0-windows\InterfazCreativa.dll
+D:\JorgeWangWang\desarrollo de interfaces\InterfazCreativa\InterfazCreativa\bin\Debug\net6.0-windows\InterfazCreativa.pdb
+D:\JorgeWangWang\desarrollo de interfaces\InterfazCreativa\InterfazCreativa\obj\Debug\net6.0-windows\InterfazCreativa.Form1.resources
+D:\JorgeWangWang\desarrollo de interfaces\InterfazCreativa\InterfazCreativa\obj\Debug\net6.0-windows\InterfazCreativa.csproj.GenerateResource.cache
+D:\JorgeWangWang\desarrollo de interfaces\InterfazCreativa\InterfazCreativa\obj\Debug\net6.0-windows\InterfazCreativa.GeneratedMSBuildEditorConfig.editorconfig
+D:\JorgeWangWang\desarrollo de interfaces\InterfazCreativa\InterfazCreativa\obj\Debug\net6.0-windows\InterfazCreativa.AssemblyInfoInputs.cache
+D:\JorgeWangWang\desarrollo de interfaces\InterfazCreativa\InterfazCreativa\obj\Debug\net6.0-windows\InterfazCreativa.AssemblyInfo.cs
+D:\JorgeWangWang\desarrollo de interfaces\InterfazCreativa\InterfazCreativa\obj\Debug\net6.0-windows\InterfazCreativa.csproj.CoreCompileInputs.cache
+D:\JorgeWangWang\desarrollo de interfaces\InterfazCreativa\InterfazCreativa\obj\Debug\net6.0-windows\InterfazCreativa.dll
+D:\JorgeWangWang\desarrollo de interfaces\InterfazCreativa\InterfazCreativa\obj\Debug\net6.0-windows\refint\InterfazCreativa.dll
+D:\JorgeWangWang\desarrollo de interfaces\InterfazCreativa\InterfazCreativa\obj\Debug\net6.0-windows\InterfazCreativa.pdb
+D:\JorgeWangWang\desarrollo de interfaces\InterfazCreativa\InterfazCreativa\obj\Debug\net6.0-windows\InterfazCreativa.genruntimeconfig.cache
+D:\JorgeWangWang\desarrollo de interfaces\InterfazCreativa\InterfazCreativa\obj\Debug\net6.0-windows\ref\InterfazCreativa.dll

@@ -1,0 +1,14 @@
+D:\JorgeWangWang\desarrollo de interfaces\Primer_Ejercicio\Primer_Ejercicio\bin\Debug\net6.0\Primer_Ejercicio.exe
+D:\JorgeWangWang\desarrollo de interfaces\Primer_Ejercicio\Primer_Ejercicio\bin\Debug\net6.0\Primer_Ejercicio.deps.json
+D:\JorgeWangWang\desarrollo de interfaces\Primer_Ejercicio\Primer_Ejercicio\bin\Debug\net6.0\Primer_Ejercicio.runtimeconfig.json
+D:\JorgeWangWang\desarrollo de interfaces\Primer_Ejercicio\Primer_Ejercicio\bin\Debug\net6.0\Primer_Ejercicio.dll
+D:\JorgeWangWang\desarrollo de interfaces\Primer_Ejercicio\Primer_Ejercicio\bin\Debug\net6.0\Primer_Ejercicio.pdb
+D:\JorgeWangWang\desarrollo de interfaces\Primer_Ejercicio\Primer_Ejercicio\obj\Debug\net6.0\Primer_Ejercicio.GeneratedMSBuildEditorConfig.editorconfig
+D:\JorgeWangWang\desarrollo de interfaces\Primer_Ejercicio\Primer_Ejercicio\obj\Debug\net6.0\Primer_Ejercicio.AssemblyInfoInputs.cache
+D:\JorgeWangWang\desarrollo de interfaces\Primer_Ejercicio\Primer_Ejercicio\obj\Debug\net6.0\Primer_Ejercicio.AssemblyInfo.cs
+D:\JorgeWangWang\desarrollo de interfaces\Primer_Ejercicio\Primer_Ejercicio\obj\Debug\net6.0\Primer_Ejercicio.csproj.CoreCompileInputs.cache
+D:\JorgeWangWang\desarrollo de interfaces\Primer_Ejercicio\Primer_Ejercicio\obj\Debug\net6.0\Primer_Ejercicio.dll
+D:\JorgeWangWang\desarrollo de interfaces\Primer_Ejercicio\Primer_Ejercicio\obj\Debug\net6.0\refint\Primer_Ejercicio.dll
+D:\JorgeWangWang\desarrollo de interfaces\Primer_Ejercicio\Primer_Ejercicio\obj\Debug\net6.0\Primer_Ejercicio.pdb
+D:\JorgeWangWang\desarrollo de interfaces\Primer_Ejercicio\Primer_Ejercicio\obj\Debug\net6.0\Primer_Ejercicio.genruntimeconfig.cache
+D:\JorgeWangWang\desarrollo de interfaces\Primer_Ejercicio\Primer_Ejercicio\obj\Debug\net6.0\ref\Primer_Ejercicio.dll
