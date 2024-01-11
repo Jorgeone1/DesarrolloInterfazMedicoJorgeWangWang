@@ -1,0 +1,349 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Interfaz2</name>
+    </assembly>
+    <members>
+        <member name="M:InterfazBancoTemaNuevo.Form1.#ctor">
+            <summary>
+            Metodo que inicia el formulario
+            </summary>
+        </member>
+        <member name="M:InterfazBancoTemaNuevo.Form1.PanelContenedor_SizeChanged(System.Object,System.EventArgs)">
+            <summary>
+            Actualiza el tamaño de la imagen cada vez que haya un cambio de tamaño del panel
+            </summary>
+            <param name="sender">el objeto que hace funcionar el evento</param>
+            <param name="e">argumentos del evento</param>
+        </member>
+        <member name="M:InterfazBancoTemaNuevo.Form1.WndProc(System.Windows.Forms.Message@)">
+            <summary>
+            Sobrescribe el manejo personalalizado de los mensajes de windows para redimensionar la aplicacion
+            </summary>
+            <param name="msg"> mensaje de windows</param>
+        </member>
+        <member name="M:InterfazBancoTemaNuevo.Form1.OnSizeChanged(System.EventArgs)">
+            <summary>
+            Sobrescribe el evento de cambio de tamaño de la aplicacion dando un minimo la cual puede disminuir
+            </summary>
+            <param name="e">argumentos del evento</param>
+        </member>
+        <member name="M:InterfazBancoTemaNuevo.Form1.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            metodo para sobrescribir la zona del agarre de la aplicacion para darle otro toque.
+            </summary>
+            <param name="e">argumentos del evento de pintura</param>
+        </member>
+        <member name="M:InterfazBancoTemaNuevo.Form1.btnMinimizar_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metodo que realiza las acciones al pulsar, en este caso minimiza el programa
+            </summary>
+            <param name="sender">el objeto que hace funcionar el evento</param>
+            <param name="e">argumentos del evento</param>
+        </member>
+        <member name="M:InterfazBancoTemaNuevo.Form1.btnMaximizar_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metodo que al pulsar el boton, la aplicacion ocupa toda la pantalla
+            </summary>
+            <param name="sender">el objeto que hace funcionar el evento</param>
+            <param name="e">argumentos del evento</param>
+        </member>
+        <member name="M:InterfazBancoTemaNuevo.Form1.btnCerrar_Click(System.Object,System.EventArgs)">
+            <summary>
+            Boton que al pulsar cierra la aplicación
+            </summary>
+            <param name="sender">el objeto que hace funcionar el evento</param>
+            <param name="e">eventos del argumento</param>
+        </member>
+        <member name="M:InterfazBancoTemaNuevo.Form1.btnRestaurar_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metodo que al pulsar el boton, vuelve a su tamaño original antes de ser maximizado
+            </summary>
+            <param name="sender">el objeto que hace funcionar el evento</param>
+            <param name="e">eventos del argumento</param>
+        </member>
+        <member name="M:InterfazBancoTemaNuevo.Form1.Barra_MouseDown(System.Object,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Metodo que permite agarrar el panel para poder mover la aplicacion.
+            </summary>
+            <param name="sender">el objeto que hace funcionar el evento</param>
+            <param name="e"> eventos del argumentos</param>
+        </member>
+        <member name="M:InterfazBancoTemaNuevo.Form1.button1_Click(System.Object,System.EventArgs)">
+            <summary>
+            metodo que al pulsar el boton abre el formulario 2 y cambie su color
+            </summary>
+            <param name="sender">el objeto que hace funcionar el evento</param>
+            <param name="e">eventos del argumentos</param>
+        </member>
+        <member name="M:InterfazBancoTemaNuevo.Form1.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            metodo que al pulsar el boton abre el formulario 3 y cambie su color
+            </summary>
+            <param name="sender">el objeto que hace funcionar el evento</param>
+            <param name="e">eventos del argumentos</param>
+        </member>
+        <member name="M:InterfazBancoTemaNuevo.Form1.button3_Click(System.Object,System.EventArgs)">
+            <summary>
+            metodo que al pulsar el boton abre el formulario 6 y cambie su color
+            </summary>
+            <param name="sender">el objeto que hace funcionar el evento</param>
+            <param name="e">eventos del argumentos</param>
+        </member>
+        <member name="M:InterfazBancoTemaNuevo.Form1.AbrirFormulario``1">
+            <summary>
+            metodo que sustituye el panelContendor principal con la ventana del formulario y con sus funciones.
+            </summary>
+            <typeparam name="miForm">el form llamado</typeparam>
+        </member>
+        <member name="M:InterfazBancoTemaNuevo.Form1.CloseForms(System.Object,System.Windows.Forms.FormClosedEventArgs)">
+            <summary>
+            Metodo que cuando detecta que el formulario que sustituyo al panelContenedor se cierre, el boton vuelve al boton su color original.
+            </summary>
+            <param name="sender">el objeto que hace funcionar el evento</param>
+            <param name="e">eventos del argumento</param>
+        </member>
+        <member name="M:InterfazBancoTemaNuevo.Form1.button4_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metodo que sustituye el panelContenedor por el formulario 5 y cambia el color del boton
+            </summary>
+            <param name="sender">el objeto que hace funcionar el evento</param>
+            <param name="e">eventos del argumentos</param>
+        </member>
+        <member name="M:InterfazBancoTemaNuevo.Form1.button5_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metodo que sustituye el panelContenedor por el formulario 4 y cambia el color del boton
+            </summary>
+            <param name="sender">el objeto que hace funcionar el evento</param>
+            <param name="e">eventos del argumentos</param>
+        </member>
+        <member name="F:InterfazBancoTemaNuevo.Form1.components">
+            <summary>
+             Required designer variable.
+            </summary>
+        </member>
+        <member name="M:InterfazBancoTemaNuevo.Form1.Dispose(System.Boolean)">
+            <summary>
+             Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:InterfazBancoTemaNuevo.Form1.InitializeComponent">
+            <summary>
+             Required method for Designer support - do not modify
+             the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:InterfazBancoTemaNuevo.Program.Main">
+            <summary>
+             The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:InterfazBancoTemaNuevo.ApplicationConfiguration">
+            <summary>
+             Bootstrap the application configuration.
+            </summary>
+        </member>
+        <member name="M:InterfazBancoTemaNuevo.ApplicationConfiguration.Initialize">
+            <summary>
+             Bootstrap the application as follows:
+             <code>
+             global::System.Windows.Forms.Application.EnableVisualStyles();
+             global::System.Windows.Forms.Application.SetCompatibleTextRenderingDefault(false);
+             global::System.Windows.Forms.Application.SetHighDpiMode(HighDpiMode.SystemAware);
+            </code>
+            </summary>
+        </member>
+        <member name="F:Interfaz2.Form2.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Interfaz2.Form2.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Interfaz2.Form2.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Interfaz2.Form3.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Interfaz2.Form3.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Interfaz2.Form3.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Interfaz2.Form4.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Interfaz2.Form4.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Interfaz2.Form4.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Interfaz2.Form5.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Interfaz2.Form5.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Interfaz2.Form5.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Interfaz2.Form6.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Interfaz2.Form6.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Interfaz2.Form6.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Interfaz2.Properties.Resources">
+            <summary>
+              Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+            </summary>
+        </member>
+        <member name="P:Interfaz2.Properties.Resources.ResourceManager">
+            <summary>
+              Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+            </summary>
+        </member>
+        <member name="P:Interfaz2.Properties.Resources.Culture">
+            <summary>
+              Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+              búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+            </summary>
+        </member>
+        <member name="P:Interfaz2.Properties.Resources.bar_graph1">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Interfaz2.Properties.Resources.calendar__1_1">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Interfaz2.Properties.Resources.cancel">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Interfaz2.Properties.Resources.Close">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Interfaz2.Properties.Resources.Grafica_1">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Interfaz2.Properties.Resources.Grafica_2">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Interfaz2.Properties.Resources.Grafica_3">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Interfaz2.Properties.Resources.Grafica_4">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Interfaz2.Properties.Resources.Health_PNG_Image">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Interfaz2.Properties.Resources.maximize3">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Interfaz2.Properties.Resources.Minimize">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Interfaz2.Properties.Resources.Normal">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Interfaz2.Properties.Resources.patient__1_1">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Interfaz2.Properties.Resources.payment1">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Interfaz2.Properties.Resources.person_settings1">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Interfaz2.Properties.Resources.phone_book__1_1">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Interfaz2.Properties.Resources.user">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Interfaz2.Properties.Resources.user__1_">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+    </members>
+</doc>
