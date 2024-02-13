@@ -1,0 +1,6 @@
+C:\Users\Alumno\Documents\GitHub\DesarrolloInterfazMedicoJorgeWangWang\InterfazBancoTemaNuevo\InterfazBancoTemaNuevo\bin\Release\net6.0-windows\win-x64\app.publish\Interfaz2.exe
+C:\Users\Alumno\Documents\GitHub\DesarrolloInterfazMedicoJorgeWangWang\InterfazBancoTemaNuevo\InterfazBancoTemaNuevo\bin\Release\net6.0-windows\win-x64\app.publish\Interfaz2.dll
+C:\Users\Alumno\Documents\GitHub\DesarrolloInterfazMedicoJorgeWangWang\InterfazBancoTemaNuevo\InterfazBancoTemaNuevo\bin\Release\net6.0-windows\win-x64\app.publish\Interfaz2.deps.json
+C:\Users\Alumno\Documents\GitHub\DesarrolloInterfazMedicoJorgeWangWang\InterfazBancoTemaNuevo\InterfazBancoTemaNuevo\bin\Release\net6.0-windows\win-x64\app.publish\Interfaz2.runtimeconfig.json
+C:\Users\Alumno\Documents\GitHub\DesarrolloInterfazMedicoJorgeWangWang\InterfazBancoTemaNuevo\InterfazBancoTemaNuevo\bin\Release\net6.0-windows\win-x64\app.publish\Interfaz2.pdb
+C:\Users\Alumno\Documents\GitHub\DesarrolloInterfazMedicoJorgeWangWang\InterfazBancoTemaNuevo\InterfazBancoTemaNuevo\bin\Release\net6.0-windows\win-x64\app.publish\DocumentacionProyecto.xml
